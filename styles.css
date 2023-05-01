@@ -60,3 +60,23 @@ h1 {
 #copy-btn:hover {
   background-color: #0056b3;
 }
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .textarea-container {
+    flex-direction: column;
+  }
+  
+  #input-text {
+    height: 100px;
+  }
+  
+  #output-text {
+    height: 200px;
+  }
+  
+  .buttons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
