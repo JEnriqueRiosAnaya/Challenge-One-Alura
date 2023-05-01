@@ -1,0 +1,62 @@
+/* Estilos CSS proporcionados */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.textarea-container {
+  display: flex;
+}
+
+#input-text {
+  flex: 1;
+  height: 150px;
+  padding: 10px;
+  resize: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+#output-text {
+  flex: 1;
+  height: 300px;
+  margin-left: 20px;
+  padding: 10px;
+  resize: none;
+  border: none;
+  background-color: #ffffff;
+  background-image:'img/1.png';
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+#encrypt-btn,
+#decrypt-btn,
+#copy-btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#encrypt-btn:hover,
+#decrypt-btn:hover,
+#copy-btn:hover {
+  background-color: #0056b3;
+}
