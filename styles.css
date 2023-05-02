@@ -1,82 +1,173 @@
-/* Estilos CSS proporcionados */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
+@media only screen and (min-width: 1024px) {
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
+  /* Estilos CSS proporcionados */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5ACAB4;
+    /* background-image: url('img/1184118.jpg'); */
+  }
 
-h1 {
-  text-align: center;
-}
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-.textarea-container {
-  display: flex;
-}
+  h1 {
+    text-align: center;
+    color: #5ACAB4;
+  }
 
-#input-text {
-  flex: 1;
-  height: 150px;
-  padding: 10px;
-  resize: none;
-  border: none;
-  background-color: #ffffff;
-}
+  .textarea-container {
+    display: flex;
+  }
 
-#output-text {
-  flex: 1;
-  height: 300px;
-  margin-left: 20px;
-  padding: 10px;
-  resize: none;
-  border: none;
-  background-color: #ffffff;
-  background-image:'img/1.png';
-}
+  #input-text {
+    flex: 1;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background-color: transparent;
+  }
 
-.buttons-container {
-  display: flex;
-  justify-content: left;
-  margin-top: 20px;
-}
+  #output-text {
+    flex: 1;
+    height: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background-color: transparent;
+  }
 
-#encrypt-btn,
-#decrypt-btn,
-#copy-btn {
-  margin-right: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
+  #advertencia {
+    color: #B25898;
+  }
 
-#encrypt-btn:hover,
-#decrypt-btn:hover,
-#copy-btn:hover {
-  background-color: #0056b3;
+  .buttons-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+
+  #encrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #decrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #copy-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #encrypt-btn:hover,
+  #decrypt-btn:hover,
+  #copy-btn:hover {
+    background-color: #0056b3;
+  }
+
 }
 
 /* Estilos para pantallas pequeñas */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 426px) and (max-width: 968px) {
+
+  /* Estilos CSS proporcionados */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #5ACAB4;
+    /* background-image: url('img/1184118.jpg'); */
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #5ACAB4;
+  }
+
   .textarea-container {
-    flex-direction: column;
+    display: flex;
   }
-  
+
   #input-text {
-    height: 100px;
+    flex: 1;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background-color: transparent;
   }
-  
+
   #output-text {
-    height: 200px;
+    flex: 1;
+    height: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background-color: transparent;
   }
-  
+
+  #advertencia {
+    color: #B25898;
+  }
+
   .buttons-container {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+
+  #encrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #decrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #copy-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #encrypt-btn:hover,
+  #decrypt-btn:hover,
+  #copy-btn:hover {
+    background-color: #0056b3;
   }
 }
