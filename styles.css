@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1024px) {
+/* Responsive Escritorio */
+@media screen and (min-width: 1024px) {
 
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-color: #5ACAB4;
-    /* background-image: url('img/1184118.jpg'); */
+    background-image: url('img/1184118.jpg'); 
   }
 
   .container {
@@ -17,27 +17,31 @@
     color: #5ACAB4;
   }
 
+  #historial{
+    justify-content: left;
+  }
   .textarea-container {
     display: flex;
   }
 
   #input-text {
+    color: #fff;
     flex: 1;
-    height: 150px;
+    height: 300px;
     padding: 10px;
     resize: none;
-    border: none;
     background-color: transparent;
+    border-color: #5ACAB4;
   }
 
   #output-text {
-    flex: 1;
-    height: 300px;
+    flex: .25;
+    height: 700px;
     margin-left: 20px;
     padding: 10px;
     resize: none;
-    border: none;
     background-color: transparent;
+    border-color: #43987B;
   }
 
   #advertencia {
@@ -46,7 +50,7 @@
 
   .buttons-container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-top: 20px;
   }
 
@@ -77,6 +81,12 @@
     cursor: pointer;
   }
 
+  /* #encrypt-btn,
+  #decrypt-btn,
+  #copy-btn {
+    background-color: #0056b3;
+  } */
+
   #encrypt-btn:hover,
   #decrypt-btn:hover,
   #copy-btn:hover {
@@ -85,13 +95,13 @@
 
 }
 
-/* Estilos para pantallas pequeñas */
-@media screen and (min-width: 426px) and (max-width: 968px) {
+/* Estilos para laptops y tablets*/
+@media (min-width: 768px) and (max-width: 1000px) {
 
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-color: #5ACAB4;
+    background-color: black;
     /* background-image: url('img/1184118.jpg'); */
   }
 
