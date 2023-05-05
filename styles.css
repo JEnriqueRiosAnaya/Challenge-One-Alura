@@ -117,9 +117,8 @@
   #input-text {
     position: absolute;
     top: 150px;
-		left: 150px;
-    width: 600px;
-    height: 100px;
+    width: 900px;
+    height: 250px;
     padding: 10px;
     resize: none;
     background-color: transparent;
