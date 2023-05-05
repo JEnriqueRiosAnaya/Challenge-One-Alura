@@ -96,11 +96,12 @@
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: white;
     /* background-image: url('img/1184118.jpg'); */
   }
 
   .container {
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -116,32 +117,35 @@
 
   #input-text {
     position: absolute;
-    top: 150px;
-    width: 900px;
-    height: 250px;
-    padding: 10px;
+    flex: 1;
+    width: 65vh;
+    height: 35vh;
+    padding: 1.25%;
     resize: none;
     background-color: transparent;
   }
 
   #output-text {
     position: absolute;
-    top: 100px;
-			left: 100px;
-			width: 200px;
-			height: 100px;
-    padding: 10px;
+    flex: 1;
+    top: 55vh;
+    width: 65vh;
+    height: 35vh;
+    padding: 1.25%;
     resize: none;
     background-color: transparent;
   }
 
   #advertencia {
+    position: absolute;
+    top: 48vh;
     color: #B25898;
   }
 
   .buttons-container {
-    display: flex;
-    justify-content: left;
+    position: absolute;
+    top: 49vh;
+    justify-content: center;
     margin-top: 20px;
   }
 
