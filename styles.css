@@ -4,7 +4,7 @@
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-image: url('img/1184118.jpg'); 
+    background-image: url('img/1184118.jpg');
   }
 
   .container {
@@ -17,9 +17,10 @@
     color: #5ACAB4;
   }
 
-  #historial{
+  #historial {
     justify-content: left;
   }
+
   .textarea-container {
     display: flex;
   }
@@ -81,12 +82,6 @@
     cursor: pointer;
   }
 
-  /* #encrypt-btn,
-  #decrypt-btn,
-  #copy-btn {
-    background-color: #0056b3;
-  } */
-
   #encrypt-btn:hover,
   #decrypt-btn:hover,
   #copy-btn:hover {
@@ -120,21 +115,24 @@
   }
 
   #input-text {
-    flex: 1;
-    height: 150px;
+    position: absolute;
+    top: 150px;
+		left: 150px;
+    width: 600px;
+    height: 100px;
     padding: 10px;
     resize: none;
-    border: none;
     background-color: transparent;
   }
 
   #output-text {
-    flex: 1;
-    height: 300px;
-    margin-left: 20px;
+    position: absolute;
+    top: 100px;
+			left: 100px;
+			width: 200px;
+			height: 100px;
     padding: 10px;
     resize: none;
-    border: none;
     background-color: transparent;
   }
 
