@@ -277,17 +277,18 @@ h1 {
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: white;
     /* background-image: url('img/1184118.jpg'); */
   }
 
   .container {
-    width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
   }
 
   h1 {
+    font-size:larger;
     text-align: center;
     color: #5ACAB4;
   }
@@ -299,8 +300,8 @@ h1 {
   #input-text {
     position: absolute;
     flex: 1;
-    width: 60vh;
-    height: 30vh;
+    width: 35vh;
+    height: 35vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
@@ -310,8 +311,8 @@ h1 {
     position: absolute;
     flex: 1;
     top: 60vh;
-    width: 60vh;
-    height: 30vh;
+    width: 35vh;
+    height: 35vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
@@ -319,20 +320,20 @@ h1 {
 
   #advertencia {
     position: absolute;
-    top: 48vh;
+    top: 50vh;
     color: #B25898;
+    font-size: small;
   }
 
   .buttons-container {
     position: absolute;
-    top: 49vh;
+    top: 50vh;
     justify-content: center;
     margin-top: 20px;
   }
 
   #encrypt-btn {
-    margin-right: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -340,8 +341,7 @@ h1 {
   }
 
   #decrypt-btn {
-    margin-right: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -349,8 +349,7 @@ h1 {
   }
 
   #copy-btn {
-    margin-right: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
