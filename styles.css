@@ -302,6 +302,7 @@
   }
 
   #input-text {
+    color: #fff;
     position: absolute;
     flex: 1;
     width: 50vh;
@@ -312,6 +313,7 @@
   }
 
   #output-text {
+    color: #fff;
     position: absolute;
     flex: 1;
     top: 55vh;

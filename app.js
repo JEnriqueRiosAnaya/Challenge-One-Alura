@@ -95,3 +95,11 @@ copyBtn.addEventListener("click", function () {
     showConfirmButton: false // Ocultar el botón de confirmación
   });
 });
+
+//Limpiar los textareas
+const btnLimpiar = document.getElementById("limpiar");
+  btnLimpiar.addEventListener("click", function() {
+    document.getElementById("input-text").value = "";
+    document.getElementById("output-text").value = "";
+  });
+
