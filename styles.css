@@ -301,7 +301,7 @@ h1 {
     position: absolute;
     flex: 1;
     width: 35vh;
-    height: 35vh;
+    height: 30vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
@@ -312,7 +312,7 @@ h1 {
     flex: 1;
     top: 60vh;
     width: 35vh;
-    height: 35vh;
+    height: 30vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
