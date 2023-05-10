@@ -1,9 +1,12 @@
 /* Laptops y escritorios */
 @media only screen and (min-width: 1025px) {
+
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
     background-image: url('img/1184118.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
 
   .container {
@@ -35,6 +38,7 @@
   }
 
   #output-text {
+    color: #fff;
     flex: .25;
     height: 700px;
     margin-left: 20px;
@@ -90,103 +94,104 @@
 
 /* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
- /* Estilos CSS proporcionados */
- body {
-  font-family: Arial, sans-serif;
-  background-color: black;
-  /* background-image: url('img/1184118.jpg'); */
-}
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
+  /* Estilos CSS proporcionados */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/1184118.jpg');
+  }
 
-h1 {
-  text-align: center;
-  color: #5ACAB4;
-}
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-.textarea-container {
-  display: flex;
-}
+  h1 {
+    text-align: center;
+    color: #5ACAB4;
+  }
 
-#input-text {
-  position: absolute;
-  flex: 1;
-  width: 60vh;
-  height: 30vh;
-  padding: 1.25%;
-  resize: none;
-  background-color: transparent;
-}
+  .textarea-container {
+    display: flex;
+  }
 
-#output-text {
-  position: absolute;
-  flex: 1;
-  top: 60vh;
-  width: 60vh;
-  height: 30vh;
-  padding: 1.25%;
-  resize: none;
-  background-color: transparent;
-}
+  #input-text {
+    position: absolute;
+    flex: 1;
+    width: 60vh;
+    height: 30vh;
+    padding: 1.25%;
+    resize: none;
+    background-color: transparent;
+  }
 
-#advertencia {
-  position: absolute;
-  top: 48vh;
-  color: #B25898;
-}
+  #output-text {
+    position: absolute;
+    flex: 1;
+    top: 60vh;
+    width: 60vh;
+    height: 30vh;
+    padding: 1.25%;
+    resize: none;
+    background-color: transparent;
+  }
 
-.buttons-container {
-  position: absolute;
-  top: 49vh;
-  justify-content: center;
-  margin-top: 20px;
-}
+  #advertencia {
+    position: absolute;
+    top: 48vh;
+    color: #B25898;
+  }
 
-#encrypt-btn {
-  margin-right: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
+  .buttons-container {
+    position: absolute;
+    top: 49vh;
+    justify-content: center;
+    margin-top: 20px;
+  }
 
-#decrypt-btn {
-  margin-right: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
+  #encrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
 
-#copy-btn {
-  margin-right: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
+  #decrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
 
-#encrypt-btn:hover,
-#decrypt-btn:hover,
-#copy-btn:hover {
-  background-color: #0056b3;
-}
+  #copy-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #encrypt-btn:hover,
+  #decrypt-btn:hover,
+  #copy-btn:hover {
+    background-color: #0056b3;
+  }
 }
 
 /* Dispositivos móviles con pantalla mediana */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
     background-color: black;
-    /* background-image: url('img/1184118.jpg'); */
+    background-image: url('./img/480.png');
   }
 
   .container {
@@ -274,21 +279,20 @@ h1 {
 
 /* Dispositivos móviles con pantalla pequeña */
 @media only screen and (max-width: 480px) {
+
   /* Estilos CSS proporcionados */
   body {
     font-family: Arial, sans-serif;
-    background-color: white;
-    /* background-image: url('img/1184118.jpg'); */
+    background-image: url('./img/480.png');
   }
 
   .container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
   }
 
   h1 {
-    font-size:larger;
+    font-size: larger;
     text-align: center;
     color: #5ACAB4;
   }
@@ -300,8 +304,8 @@ h1 {
   #input-text {
     position: absolute;
     flex: 1;
-    width: 35vh;
-    height: 30vh;
+    width: 50vh;
+    height: 32vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
@@ -310,9 +314,9 @@ h1 {
   #output-text {
     position: absolute;
     flex: 1;
-    top: 60vh;
-    width: 35vh;
-    height: 30vh;
+    top: 55vh;
+    width: 50vh;
+    height: 35vh;
     padding: 1.25%;
     resize: none;
     background-color: transparent;
@@ -320,20 +324,20 @@ h1 {
 
   #advertencia {
     position: absolute;
-    top: 50vh;
+    top: 41vh;
     color: #B25898;
-    font-size: small;
+    font-size: large;
   }
 
   .buttons-container {
     position: absolute;
-    top: 50vh;
+    top: 44vh;
     justify-content: center;
     margin-top: 20px;
   }
 
   #encrypt-btn {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -341,7 +345,7 @@ h1 {
   }
 
   #decrypt-btn {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -349,7 +353,7 @@ h1 {
   }
 
   #copy-btn {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
