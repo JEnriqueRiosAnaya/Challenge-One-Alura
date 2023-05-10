@@ -274,5 +274,92 @@ h1 {
 
 /* Dispositivos móviles con pantalla pequeña */
 @media only screen and (max-width: 480px) {
-  /* estilos CSS para dispositivos móviles con pantalla pequeña */
+  /* Estilos CSS proporcionados */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    /* background-image: url('img/1184118.jpg'); */
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #5ACAB4;
+  }
+
+  .textarea-container {
+    display: flex;
+  }
+
+  #input-text {
+    position: absolute;
+    flex: 1;
+    width: 60vh;
+    height: 30vh;
+    padding: 1.25%;
+    resize: none;
+    background-color: transparent;
+  }
+
+  #output-text {
+    position: absolute;
+    flex: 1;
+    top: 60vh;
+    width: 60vh;
+    height: 30vh;
+    padding: 1.25%;
+    resize: none;
+    background-color: transparent;
+  }
+
+  #advertencia {
+    position: absolute;
+    top: 48vh;
+    color: #B25898;
+  }
+
+  .buttons-container {
+    position: absolute;
+    top: 49vh;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #encrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #decrypt-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #copy-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #encrypt-btn:hover,
+  #decrypt-btn:hover,
+  #copy-btn:hover {
+    background-color: #0056b3;
+  }
 }
