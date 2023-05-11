@@ -362,6 +362,14 @@
     cursor: pointer;
   }
 
+  #limpiar-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
   #encrypt-btn:hover,
   #decrypt-btn:hover,
   #copy-btn:hover {
