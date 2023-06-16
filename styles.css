@@ -81,8 +81,182 @@
     cursor: pointer;
   }
 
+  #limpiar{
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #5ACAB4;
+    border: none;
+    cursor: pointer;
+  }
+
   #encrypt-btn:hover,
   #decrypt-btn:hover,
-  #copy-btn:hover {
-    background-color: #0056b3;
+  #copy-btn:hover,
+  #limpiar:hover {
+    background-color: #43987B;
   }
+
+  /* Laptop */
+  @media only screen and (min-width:992px) and (max-width:1199px) {
+    #historial {
+      justify-content: left;
+    }
+  
+    .textarea-container {
+      display: flex;
+    }
+  
+    #input-text {
+      color: #fff;
+      flex: .8;
+      height: 300px;
+      padding: 10px;
+      resize: none;
+      background-color: transparent;
+      border-color: #5ACAB4;
+    }
+  
+    #output-text {
+      color: #fff;
+      flex: .30;
+      height: 700px;
+      margin-left: 20px;
+      padding: 10px;
+      resize: none;
+      background-color: transparent;
+      border-color: #43987B;
+    }
+  
+    #advertencia {
+      position: absolute;
+      top: 50%;
+      color: #B25898;
+    }
+  
+    .buttons-container {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      top: 85%;
+      margin-left: 20%;
+    }
+  
+    #encrypt-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #decrypt-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #copy-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    #limpiar{
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  /* Tablet */
+  @media only screen and (min-width:768px) and (max-width:991px) {
+    #historial {
+      justify-content: left;
+    }
+  
+    .textarea-container {
+      display: flex;
+    }
+  
+    #input-text {
+      color: #fff;
+      flex: 1;
+      height: 300px;
+      padding: 10px;
+      resize: none;
+      background-color: transparent;
+      border-color: #5ACAB4;
+    }
+  
+    #output-text {
+      color: #fff;
+      width: 85%;
+      height: 300px;
+      padding: 10px;
+      resize: none;
+      background-color: transparent;
+      border-color: #43987B;
+      position:absolute;
+      top: 55%;
+    }
+  
+    #advertencia {
+      position: absolute;
+      top: 50%;
+      color: #B25898;
+    }
+  
+    .buttons-container {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      top: 48%;
+      margin-left: 35%;
+    }
+  
+    #encrypt-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #decrypt-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #copy-btn {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    #limpiar{
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #5ACAB4;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  /* Mobil */
+  @media only screen and (max-width:525px) {}
