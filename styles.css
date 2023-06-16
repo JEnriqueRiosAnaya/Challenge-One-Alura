@@ -57,7 +57,7 @@
   #encrypt-btn {
     margin-right: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #5ACAB4;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -66,7 +66,7 @@
   #decrypt-btn {
     margin-right: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #5ACAB4;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -75,7 +75,7 @@
   #copy-btn {
     margin-right: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #5ACAB4;
     color: #fff;
     border: none;
     cursor: pointer;
