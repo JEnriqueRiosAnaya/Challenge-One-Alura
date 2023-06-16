@@ -1,3 +1,5 @@
+
+
 // Función para encriptar el texto
 function encryptText(text) {
   let encryptedText = "";
